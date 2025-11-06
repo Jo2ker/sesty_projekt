@@ -100,3 +100,4 @@ def test_pritomnosti_cookie(stranka):
     assert ga_cookie is not None  # ověření existence
     # ověření hodnoty, například že začíná na 'GA1.2'
     assert ga_cookie['value'].startswith('GA1.2')
+    
